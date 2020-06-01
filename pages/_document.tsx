@@ -10,11 +10,11 @@ export default class Document extends NextDocument {
 
     render() {
         return (
-            <Html lang='en' className='font-body leading-normal text-white antialiased bg-purple-900'>
+            <Html lang='en' className='font-body leading-normal antialiased text-gray-900 bg-gray-100'>
                 <Head>
                     <meta name='robots' content='noindex, nofollow' />
                 </Head>
-                <body className='p-8 sm:p-12 min-h-screen'>
+                <body className='min-h-screen'>
                     <Main />
                     <NextScript />
                 </body>
